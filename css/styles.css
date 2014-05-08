@@ -1,0 +1,70 @@
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	height: 100%;
+}
+
+.clear { clear: both;}
+
+header {
+	background-color: #f6f6f6;
+	border-bottom: 3px solid #000;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+#main {
+	height: 100%;
+	padding-top: 75px;
+	width: 100%;
+	position: absolute;
+}
+
+aside {
+	background-color: #ededed;
+	border-right: 3px solid #7b7b7b; 
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-top: 75px;
+	overflow-y: auto;
+	z-index: 9;
+}
+
+#articleList .current {
+	border: 3px solid #f00;
+}
+
+#fullArticleList{
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 16.666667%;
+	width: 83.333333%;
+	border-top: solid 75px transparent;
+}
+
+#articles {
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.news-article {
+	border-top: 3px solid #A11222;
+	clear: both;
+	max-width: 570px;
+	padding-left: 50px;
+}
+
+.news-article-text {
+}
+
+footer {
+	clear: both;
+}
